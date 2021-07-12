@@ -3,14 +3,16 @@ const Section1 = {
    * A literal is considered static, stable strings (eg. titles, form labels, ...)
    */
   literals: {
-    SAMPLE_LITERAL: 'This is a sample literal. You can safely delete it.',
+      URL: 'http://localhost:8080/section-1',
   },
 
   /**
    * An element is a selector for any DOM element (eg. [data-test="xxx"], #id, ...)
    */
   elements: {
-    sampleElement: '[data-test=sample-element-to-be-safely-deleted]',
+    table: '[id="alaya-table"]',
+    showTableButton: '[id="table-toggle-button"]',
+    tableHeader:'[class="table-header"]',
   },
 
   /**
